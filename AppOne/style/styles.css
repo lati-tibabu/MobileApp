@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: montserrat;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 h1 {
@@ -22,14 +24,15 @@ h1 {
     border-radius: 18px;
 }
 
-body{
+body {
     background: rgba(0, 128, 0, 0.103);
 }
+
 .mainScreen {
     position: absolute;
     background: rgb(3, 123, 221);
     /* background: url("/images/bg1.jpg"); */
-    background: url("images/bg2.jpg");
+    background: url("/images/bg2.jpg");
     /* background: url("/images/bg3.jpg"); */
     /* background: url("/images/bg4.jpg"); */
     /* background: url("/images/bg5.jpg"); */
@@ -44,7 +47,8 @@ body{
     height: 500px;
     border-radius: 15px;
 }
-.topScreen{
+
+.topScreen {
     background: rgba(226, 226, 226, 0.55);
     border-radius: 14px 14px 0 0;
     display: flex;
@@ -84,14 +88,16 @@ body{
     border-radius: 100%;
     background: rgb(44, 44, 44);
 }
-.clock{
+
+.clock {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 7px;
     margin-left: -8px;
     margin-top: 5px;
 }
-.battery .box{
+
+.battery .box {
     width: 8px;
     height: 13px;
     background: transparent;
@@ -103,13 +109,15 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.battery .box .batteryPeak{
+
+.battery .box .batteryPeak {
     width: 4px;
     height: 1px;
     background: black;
     margin-top: -1.3px;
 }
-.battery .box #batteryPer{
+
+.battery .box #batteryPer {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 4px;
@@ -120,7 +128,8 @@ body{
     /* bottom: 0px; */
     margin-top: 6px;
 }
-.signal{
+
+.signal {
     margin-left: 140px;
     margin-top: 4px;
     /* background: rgba(0, 0, 0, 0); */
@@ -132,42 +141,48 @@ body{
     padding: 1px;
     /* gap: 0.2px; */
 }
-.signal .sig1{
+
+.signal .sig1 {
     margin-top: 10px;
     background: rgb(0, 0, 0);
     height: 3px;
     width: 2px;
     /* border-radius: 3px 3px 0 0; */
 }
-.signal .sig2{
+
+.signal .sig2 {
     margin-top: 8px;
     background: rgb(0, 0, 0);
     height: 5px;
     width: 2px;
     /* border-radius: 3px 3px 0 0; */
 }
-.signal .sig3{
+
+.signal .sig3 {
     margin-top: 6px;
     background: rgb(0, 0, 0);
     height: 7px;
     width: 2px;
     /* border-radius: 3px 3px 0 0; */
 }
-.signal .sig4{
+
+.signal .sig4 {
     margin-top: 4px;
     background: rgb(0, 0, 0);
     height: 9px;
     width: 2px;
     /* border-radius: 3px 3px 0 0; */
 }
-.signal .sig5{
+
+.signal .sig5 {
     margin-top: 2px;
     background: rgb(0, 0, 0);
     height: 11px;
     width: 2px;
     /* border-radius: 3px 3px 0 0; */
 }
-.bodyScreen{
+
+.bodyScreen {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -175,7 +190,8 @@ body{
     margin-top: 10px;
     /* filter: blur(3px); */
 }
-.bodyScreen .appDraw{
+
+.bodyScreen .appDraw {
     width: 250px;
     height: 420px;
     background: rgba(0, 0, 0, 0.397);
@@ -185,16 +201,19 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.appDraw h2{
+
+.appDraw h2 {
     margin-top: 5px;
     color: white;
 }
-.navigationBar{
+
+.navigationBar {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.navigationBar .bar{
+
+.navigationBar .bar {
     background: rgba(255, 255, 255, 0.776);
     width: 50px;
     height: 3px;
@@ -202,10 +221,12 @@ body{
     position: absolute;
     bottom: 4px;
 }
-.navigationBar .bar:hover{
+
+.navigationBar .bar:hover {
     cursor: pointer;
 }
-.appDraw .contentWrite p{
+
+.appDraw .contentWrite p {
     color: white;
     font-size: 10px;
     padding: 5px;
